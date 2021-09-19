@@ -1,0 +1,153 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background: rgba(0, 0, 0, 0.8);
+	/*background: url(Imagenes/Imagen1.jpg);*/
+	background-attachment: fixed;
+	background-repeat: repeat-x;
+	color: #fff;
+
+}
+
+
+header {
+	background: #B3B3B3;
+	height: 75px;
+	width: 100%;
+	position: relative;
+
+
+}
+
+h1 {
+	background: #000;
+	padding: 2px 15px;
+	color: #fff;
+	font-size: 25px;
+	height: 30px;
+	width: 100% - 15px;
+	position: relative;
+	top: 0px;
+	bottom: 0.1px;
+	left: 0px;
+	right: 0px;
+
+
+}
+
+a {
+	font-size: 20px;
+}
+
+.b {
+	width: 120px;
+    height: 30px;
+
+    text-align: center;
+    text-decoration: none;
+    /*margin: 5px 6px;*/
+    display: inline-block;
+    background: #B3B3B3;
+    color: #000;
+    padding: 5px 8px;
+    position: relative;
+    float: left;
+}
+
+.b:hover {
+    background: #8D8D8D;
+}
+
+.b:active {
+	background: #656565;
+}
+
+h2{
+	font-weight: bold;
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 2px 2px 6px #000;
+	top: 10px;
+	clear: left;
+}
+
+form {
+	font-size: 20px;
+	height: 69.9%;
+	padding: 35px 35px ;
+    font-family: Arial, Helvetica, Sans-serif;
+    line-height: 30px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    margin: 0px 0px;
+
+
+}
+
+.logo {
+	float: right;
+}
+
+
+
+texto {
+	text-align: center;
+}
+
+cajones {
+	position: absolute;
+	left: 500px;
+}
+
+div {
+	text-align: center;
+}
+
+label {
+	background: rgba(255, 255, 255, 0);
+	width: 100px;
+	height: 35px;
+	text-align: left;
+	padding: 0px 5px ;
+	margin: 25px 5px;
+	display: inline-block;
+
+}
+
+input{
+	width: 300px;
+	height: 35px;
+	left: 10px;
+	text-align: left;
+	padding: 0px 15px ;
+	margin: 15px 5px;
+}
+
+.acciones {
+	width: 90px;
+    height: 30px;
+
+    text-align: center;
+	text-decoration: none;
+
+    display: inline-block;
+    background: #B3B3B3;
+    color: #000;
+
+    padding: 5px 8px;
+    margin: 5px 6px;
+	position: relative;
+	top: 50px;
+}
+
+.acciones:hover {
+    background: #8D8D8D;
+}
+
+.acciones:active {
+	background: #656565;
+}
